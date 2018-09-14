@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b; //déclaration des variables
+    int s, p;
+
+    printf ("Saisir 2 entiers \n"); //obtention des données affichage d'un message
+    scanf ("%d%d", &a, &b);
+    s=a+b; //calcul de la somme et du produit
+    p=a*b;
+    printf ("La somme de %d et %d est %d \n", a, b, s); //affichage des résultats
+    printf ("Le produit de %d et de %d est %d \n", a, b, p);
+    return 0;
+}
